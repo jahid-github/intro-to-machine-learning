@@ -1,13 +1,5 @@
-I read the uploaded lecture sheets and built this exam set from the topics they cover: ML basics with X and y, regression vs classification, Python libraries, training/testing/validation, data cleansing, linear regression with MSE and gradient descent, KNN with distance metrics and scaling, clustering, confusion matrix metrics, feature selection, covariance/correlation, derivatives, and PCA.        
-
-Use this as your common question paper plus answer bank.
-
-# Intro to Machine Learning Final Exam Preparation
-
-## Common Question Paper with Answers
-
+# Intro to Machine Learning
 ---
-
 ## Part A: Very Important Short Questions with Answers
 
 ### 1. What is machine learning?
@@ -570,53 +562,34 @@ A confusion matrix summarizes classification results using:
 ### 77. Give the formula for accuracy.
 
 **Answer:**
-[
-Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
-]
+<img width="493" height="94" alt="image" src="https://github.com/user-attachments/assets/c00410be-d637-4e00-a1e0-fdb89868db1f" />
+
 
 ### 78. Give the formula for precision.
 
 **Answer:**
-[
-Precision = \frac{TP}{TP + FP}
-]
+<img width="319" height="73" alt="image" src="https://github.com/user-attachments/assets/29c9983e-4127-494d-9f60-c6775dd13796" />
+
 
 ### 79. Give the formula for recall.
 
 **Answer:**
-[
-Recall = \frac{TP}{TP + FN}
-]
+<img width="289" height="94" alt="image" src="https://github.com/user-attachments/assets/438be0e0-b444-41d0-ad31-612b5a8fc172" />
+
 
 ### 80. Give the formula for F1-score.
 
 **Answer:**
-[
-F1 = \frac{2 \cdot Precision \cdot Recall}{Precision + Recall}
-]
+<img width="412" height="78" alt="image" src="https://github.com/user-attachments/assets/945dbeb8-54e8-47cb-85ad-fc4841d3970b" />
+
 
 ### 81. Using TN=55, FP=5, FN=10, TP=30, calculate the metrics.
 
 **Answer:**
 Total = 55 + 5 + 10 + 30 = 100
 
-[
-Accuracy = \frac{30+55}{100} = 0.85 = 85%
-]
+<img width="667" height="355" alt="image" src="https://github.com/user-attachments/assets/f8e23cff-d01e-4369-aebb-b8b20c2ccbfd" />
 
-[
-Precision = \frac{30}{30+5} = \frac{30}{35} \approx 0.8571 = 85.71%
-]
-
-[
-Recall = \frac{30}{30+10} = \frac{30}{40} = 0.75 = 75%
-]
-
-[
-F1 = \frac{2(0.8571)(0.75)}{0.8571+0.75} \approx 0.80 = 80%
-]
-
-This exact style of question appears in the lecture. 
 
 ---
 

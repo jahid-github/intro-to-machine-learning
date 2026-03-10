@@ -373,17 +373,15 @@ Because it does not build a model during training. It waits until prediction tim
 ### 52. What is the Euclidean distance formula?
 
 **Answer:**
-[
-d = \sqrt{\sum_{i=1}^{n}(x_i - y_i)^2}
-]
+<img width="369" height="147" alt="image" src="https://github.com/user-attachments/assets/2e912a25-726f-4d2e-b0ce-e2a79fd41db7" />
+
 It is straight-line distance. 
 
 ### 53. What is Manhattan distance?
 
 **Answer:**
-[
-d = \sum_{i=1}^{n}|x_i - y_i|
-]
+<img width="277" height="109" alt="image" src="https://github.com/user-attachments/assets/e2009197-017c-40ab-8626-28118f191ca6" />
+
 It adds absolute differences feature by feature. It is also called taxicab or city-block distance.  
 
 ### 54. When does Euclidean work well?

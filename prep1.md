@@ -255,16 +255,8 @@ No. Not every outlier is wrong. It depends on context. For example, a CEO salary
 
 ### 34. What is linear regression?
 
-**Answer:**
-Linear regression is a supervised learning model that predicts a numeric output using a linear equation:
-[
-\hat{y} = wx + b
-]
-where:
-
-* (w) = weight/slope
-* (b) = bias/intercept
-* (\hat{y}) = predicted value 
+<img width="994" height="211" alt="image" src="https://github.com/user-attachments/assets/b764a995-3209-4612-95e6-ff4a8424af0c" />
+<img width="295" height="199" alt="image" src="https://github.com/user-attachments/assets/e51bcce7-9533-465f-9d40-4dbffa54ee1b" />
 
 ### 35. What does the model learn in linear regression?
 

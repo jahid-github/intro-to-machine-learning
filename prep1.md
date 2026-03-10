@@ -266,18 +266,16 @@ It learns the best values of **w** and **b** so that prediction error becomes as
 ### 36. What is prediction error?
 
 **Answer:**
-[
-\text{error} = y - \hat{y}
-]
+<img width="226" height="40" alt="image" src="https://github.com/user-attachments/assets/99eadd28-eb5c-4ba8-8974-5028c7cb33b0" />
+
 It is the difference between actual value and predicted value. 
 
 ### 37. What is MSE?
 
 **Answer:**
 MSE stands for Mean Squared Error:
-[
-MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2
-]
+<img width="372" height="100" alt="image" src="https://github.com/user-attachments/assets/4a95a77f-5b21-4819-a13b-18d389e8bd31" />
+
 It is used to measure regression error. Smaller MSE means better predictions. 
 
 ### 38. Why do we square the error in MSE?
@@ -303,10 +301,10 @@ Learning rate controls the step size during gradient descent.
 ### 41. Give the gradient descent update rule.
 
 **Answer:**
-[
-w_{new} = w_{old} - \eta \frac{\partial L}{\partial w}
-]
-where (\eta) is the learning rate. 
+<img width="351" height="79" alt="image" src="https://github.com/user-attachments/assets/c7bc36a4-2f91-4857-ab54-770679254079" />
+
+<img width="346" height="43" alt="image" src="https://github.com/user-attachments/assets/034d7ed5-9790-48c8-91e8-a67d6fc4b8ef" />
+ 
 
 ### 42. Why do we subtract the gradient?
 

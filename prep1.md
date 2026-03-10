@@ -979,72 +979,54 @@ CRISP-DM is a data science process model with six phases:
 **Answer:** Unsupervised. 
 
 ---
+**Sample Q and A for the Exam**
 
-What is KNN?
+Good example-answer style
 
-Answer:
-KNN is a supervised machine learning algorithm that predicts a new sample using the nearest training samples.
+- What is KNN?
+
+**Answer:** KNN is a supervised machine learning algorithm that predicts a new sample using the nearest training samples.
 For classification, it uses majority vote. For regression, it uses averaging.
 It depends on distance measures like Euclidean or Manhattan distance.
 Feature scaling is important because large-scale features can dominate distance.
 
 Good formula-answer style
 
-Example: What is accuracy?
+- What is accuracy?
 
-Answer:
-Accuracy measures the proportion of correct predictions out of all predictions.
+**Answer:** Accuracy measures the proportion of correct predictions out of all predictions.
 
 Formula:
 
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
 Good theory-answer style
 
-Example: Why is scaling important?
+- Why is scaling important?
 
-Answer:
-Scaling is important because machine learning features may have very different ranges.
+**Answer:** Scaling is important because machine learning features may have very different ranges.
 Distance-based algorithms like KNN and clustering are affected strongly by feature magnitude.
 Scaling makes features comparable and improves learning stability.
 
-Final 20 Must-Memorize Points
+**Final 20 Must-Memorize Points**
 
-X = features, y = target
-
-Number output -> regression
-
-Category output -> classification
-
-Supervised learning uses labeled data
-
-Unsupervised learning uses unlabeled data
-
-Train set learns, test set evaluates
-
-Validation set helps tune model
-
-Overfitting = memorizing training data
-
-Underfitting = model too simple
-
-MSE is for regression
-
-Accuracy/Precision/Recall/F1 are for classification
-
-KNN is lazy learning
-
-KNN needs scaling
-
-Euclidean = straight-line distance
-
-Manhattan = sum of absolute differences
-
-Clustering is unsupervised
-
-K-means uses centroids
-
-StandardScaler -> mean 0, std 1
-
-PCA reduces dimensionality
-
-PCA is feature extraction, not feature selection
+1. X = features, y = target
+2. Number output -> regression
+3. Category output -> classification
+4. Supervised learning uses labeled data
+5. Unsupervised learning uses unlabeled data
+6. Train set learns, test set evaluates
+7. Validation set helps tune model
+8. Overfitting = memorizing training data
+9. Underfitting = model too simple
+10. MSE is for regression
+11. Accuracy/Precision/Recall/F1 are for classification
+12. KNN is lazy learning
+13. KNN needs scaling
+14. Euclidean = straight-line distance
+15. Manhattan = sum of absolute differences
+16. Clustering is unsupervised
+17. K-means uses centroids
+18. StandardScaler -> mean 0, std 1
+19. PCA reduces dimensionality
+20. PCA is feature extraction, not feature selection

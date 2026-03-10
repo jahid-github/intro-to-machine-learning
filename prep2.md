@@ -202,9 +202,7 @@ The **learning rate** controls how big each step is.[^3]
 
 **Answer:**[^3]
 
-$$
-w_{new} = w_{old} - \text{learning\_rate} \times \frac{\partial L}{\partial w}
-$$
+<img width="454" height="49" alt="image" src="https://github.com/user-attachments/assets/1fcdb4ef-7383-4824-a5a3-a18647b7dfb5" />
 
 We subtract the slope because we want to move toward the minimum (bottom of the hill).
 

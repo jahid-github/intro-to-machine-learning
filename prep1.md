@@ -980,6 +980,71 @@ CRISP-DM is a data science process model with six phases:
 
 ---
 
-Example for KNN:
-“KNN is a supervised lazy learning algorithm that predicts a new point using the k nearest neighbors. For classification it uses majority vote, and for regression it uses averaging. Distance metrics like Euclidean or Manhattan are used. Scaling is important because large-range features can dominate distance.”
+What is KNN?
 
+Answer:
+KNN is a supervised machine learning algorithm that predicts a new sample using the nearest training samples.
+For classification, it uses majority vote. For regression, it uses averaging.
+It depends on distance measures like Euclidean or Manhattan distance.
+Feature scaling is important because large-scale features can dominate distance.
+
+Good formula-answer style
+
+Example: What is accuracy?
+
+Answer:
+Accuracy measures the proportion of correct predictions out of all predictions.
+
+Formula:
+
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+Good theory-answer style
+
+Example: Why is scaling important?
+
+Answer:
+Scaling is important because machine learning features may have very different ranges.
+Distance-based algorithms like KNN and clustering are affected strongly by feature magnitude.
+Scaling makes features comparable and improves learning stability.
+
+Final 20 Must-Memorize Points
+
+X = features, y = target
+
+Number output -> regression
+
+Category output -> classification
+
+Supervised learning uses labeled data
+
+Unsupervised learning uses unlabeled data
+
+Train set learns, test set evaluates
+
+Validation set helps tune model
+
+Overfitting = memorizing training data
+
+Underfitting = model too simple
+
+MSE is for regression
+
+Accuracy/Precision/Recall/F1 are for classification
+
+KNN is lazy learning
+
+KNN needs scaling
+
+Euclidean = straight-line distance
+
+Manhattan = sum of absolute differences
+
+Clustering is unsupervised
+
+K-means uses centroids
+
+StandardScaler -> mean 0, std 1
+
+PCA reduces dimensionality
+
+PCA is feature extraction, not feature selection

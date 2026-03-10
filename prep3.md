@@ -21,14 +21,9 @@ D) Matplotlib
 
 **Answer:** * **Batch Size:** The total number of training examples present in a single batch when the dataset is too large to feed into the computer all at once.
 
-* 
-**Iterations:** The number of batches needed to complete one full epoch.
-
-
-* 
-**Epoch:** One entire passing of all the training data through the algorithm, comprising one forward pass and one backward pass.
-
-
+* **Iterations:** The number of batches needed to complete one full epoch.
+  
+* **Epoch:** One entire passing of all the training data through the algorithm, comprising one forward pass and one backward pass.
 
 ### Section 2: Data Cleansing & Preparation
 

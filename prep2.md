@@ -80,7 +80,7 @@ Examples:
 
 ***
 
-## 📘 SECTION 2 — ML Basics \& Python Libraries (Lecture 2 / basics-2)
+## SECTION 2 — ML Basics \& Python Libraries (Lecture 2 / basics-2)
 
 **Q9. What are the three main Python libraries in ML, and what does each do?**
 
@@ -153,7 +153,7 @@ print(accuracy_score(y_test, pred))
 
 ***
 
-## 📘 SECTION 3 — Linear Regression, Loss Function \& Gradient Descent (Lecture 3)
+## SECTION 3 — Linear Regression, Loss Function \& Gradient Descent (Lecture 3)
 
 **Q13. What is the equation of a linear regression model? Explain each term.**
 
@@ -200,7 +200,7 @@ The **learning rate** controls how big each step is.[^3]
 
 **Q16. Write the weight update rule for gradient descent.**
 
-**Answer:**[^3]
+**Answer:**
 
 <img width="454" height="49" alt="image" src="https://github.com/user-attachments/assets/1fcdb4ef-7383-4824-a5a3-a18647b7dfb5" />
 
@@ -217,11 +217,11 @@ We subtract the slope because we want to move toward the minimum (bottom of the 
 
 ***
 
-## 📘 SECTION 4 — Data Cleansing \& Train/Test Split (Lecture 4)
+## SECTION 4 — Data Cleansing \& Train/Test Split (Lecture 4)
 
 **Q18. List the 5 common data quality issues and one solution for each.**
 
-**Answer:**[^4]
+**Answer:**
 
 
 | Issue | Solution |
@@ -237,7 +237,7 @@ We subtract the slope because we want to move toward the minimum (bottom of the 
 
 **Q19. Write the Python commands for data profiling (first look at data).**
 
-**Answer:**[^4]
+**Answer:**
 
 ```python
 data.head()          # first 5 rows
@@ -251,7 +251,7 @@ data.isna().sum()    # count of missing values
 
 **Q20. What is the IQR method for detecting outliers? Write the code.**
 
-**Answer:**[^4]
+**Answer:**
 
 ```python
 Q1 = data['column'].quantile(0.25)
@@ -290,7 +290,7 @@ train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 ***
 
-## 📘 SECTION 5 — KNN Algorithm (Knn.pdf + Week-5-Lecture-10)
+## SECTION 5 — KNN Algorithm (Knn.pdf + Week-5-Lecture-10)
 
 **Q23. What is the KNN algorithm? How does it make predictions?**
 
@@ -393,7 +393,7 @@ print("CV Accuracy:", scores.mean())
 
 ***
 
-## 📘 SECTION 6 — Confusion Matrix \& Evaluation Metrics (Lectures 6 \& 8)
+## SECTION 6 — Confusion Matrix \& Evaluation Metrics (Lectures 6 \& 8)
 
 **Q30. Define TP, FP, TN, FN with a medical diagnosis example.**
 
@@ -448,7 +448,7 @@ $$
 
 ***
 
-## 📘 SECTION 7 — Probability, Bayes Theorem \& Naïve Bayes (Lecture 9)
+## SECTION 7 — Probability, Bayes Theorem \& Naïve Bayes (Lecture 9)
 
 **Q34. What is Prior Probability and Conditional Probability? Give examples.**
 
@@ -480,7 +480,7 @@ $$
 
 ***
 
-## 📘 SECTION 8 — Clustering \& K-Means (Lecture 7)
+## SECTION 8 — Clustering \& K-Means (Lecture 7)
 
 **Q37. What is clustering? What type of learning is it?**
 
@@ -490,7 +490,7 @@ $$
 
 **Q38. Explain the K-Means algorithm step by step.**
 
-**Answer:**[^8]
+**Answer:**
 
 1. Choose k initial centroids
 2. Assign each data point to the nearest centroid
@@ -535,7 +535,7 @@ Convergence = cluster means don't change OR cluster assignment doesn't change.
 
 ***
 
-## 📘 SECTION 9 — Feature Selection, PCA \& Dimensionality Reduction (Lecture 8)
+## SECTION 9 — Feature Selection, PCA \& Dimensionality Reduction (Lecture 8)
 
 **Q42. What is Feature Selection and why is it important?**
 
@@ -550,7 +550,7 @@ Convergence = cluster means don't change OR cluster assignment doesn't change.
 
 **Q43. What is the difference between Feature Selection and Feature Extraction?**
 
-**Answer:**[^9]
+**Answer:**
 
 - **Feature Selection:** Selects a subset of *original* features; no new features created
 - **Feature Extraction (e.g., PCA):** Creates *new* features (principal components) from combinations of original ones[^9]
@@ -596,7 +596,7 @@ Steps:
 
 ***
 
-## 📘 SECTION 10 — Neural Networks \& Deep Learning (Week-5 / Lecture 10)
+## SECTION 10 — Neural Networks \& Deep Learning (Week-5 / Lecture 10)
 
 **Q47. How is a biological neuron modeled mathematically?**
 
@@ -649,7 +649,7 @@ A derivative of zero indicates a stationary point (minimum, maximum, or saddle p
 
 ***
 
-## ⚡ QUICK-FIRE MCQ ROUND
+## QUICK-FIRE MCQ ROUND
 
 **Q51.** Which Python library is used for training ML models?
 → **scikit-learn**[^2]
